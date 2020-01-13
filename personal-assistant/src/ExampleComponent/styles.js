@@ -7,6 +7,6 @@ export const FancyButton = styled.button`
   cursor: pointer;
 
   &:hover {
-    color: white;
+    background-color: white;
   }
 `

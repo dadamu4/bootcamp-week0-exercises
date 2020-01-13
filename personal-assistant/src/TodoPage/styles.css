@@ -1,0 +1,79 @@
+* {
+    text-align: center;
+}
+
+.todoRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.todoInput {
+    width: 250px;
+    height: 35px;
+    font: Arial;
+    margin-right: 10px;
+    border-radius: 2px;
+    border: none;
+    background-color: rgb(231, 225, 225);
+    display: flex;
+    justify-content: center;
+}
+
+.addTodo {
+    width: 150px;
+    height: 37px; 
+    background: lightgreen;
+    border: none;
+    border-radius: 2px;
+    margin-right: 10px; 
+
+
+    /* &:hover {
+        background-color: khaki;
+        cursor: pointer;
+    } */
+}
+
+.deleteTodo {
+    width: 60px;
+    height: 40px; 
+    background: lightgreen;
+    border: none;
+    border-radius: 30px;
+
+
+    /* &:hover {
+        background-color: green;
+        cursor: pointer;
+    } */
+}
+
+.colorButton {
+    width: 100px;
+    height: 30px; 
+    padding-left: 10px;
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    width: 410px;
+    height: 40px; 
+    font: Arial; 
+    margin-right: 10px;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+    background-color: rgb(231, 225, 225);
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+    
